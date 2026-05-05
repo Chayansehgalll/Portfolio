@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { motion } from "motion/react";
+import { resumeLink } from "../constants/index.js";
 function Navigation({ onNavigate }) {
   const handleClick = (e, targetId) => {
     e.preventDefault();
@@ -67,6 +68,16 @@ function Navigation({ onNavigate }) {
           Contact
         </a>
       </li>
+      <li className="nav-li">
+        <a
+          className="nav-link"
+          href={resumeLink}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Resume
+        </a>
+      </li>
     </ul>
   );
 }
@@ -81,7 +92,7 @@ const Navbar = () => {
             href="/"
             className="text-xl font-bold transition-colors text-neutral-400 hover:text-white"
           >
-            THE WEB DEVELOPER
+            Portfolio - Chayan Sehgal
           </a>
           <button
             onClick={() => setIsOpen(!isOpen)}

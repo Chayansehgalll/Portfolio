@@ -15,7 +15,7 @@ const Footer = () => {
           </a>
         ))}
       </div>
-      © 2025 Chayan Sehgal. All rights reserved.
+      © 2026 Chayan Sehgal. All rights reserved.
     </section>
   );
 };

@@ -1,5 +1,6 @@
 import { FlipWords } from "./FlipWords";
 import { motion } from "motion/react";
+import { resumeLink } from "../constants/index.js";
 
 const HeroText = () => {
   const words = ["Secure", "Modern", "Scalable"];
@@ -50,6 +51,19 @@ const HeroText = () => {
           >
             Web Solutions
           </motion.p>
+          <motion.a
+            href={resumeLink}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-8 py-4 mt-8 text-xl font-bold text-white bg-radial from-lavender to-royal rounded-md hover-animation md:text-2xl"
+            variants={variants}
+            initial="hidden"
+            animate="visible"
+            whileHover={{ scale: 1.05 }}
+            transition={{ delay: 2.1 }}
+          >
+            View Resume
+          </motion.a>
         </div>
       </div>
       {/* Mobile View */}
@@ -93,6 +107,19 @@ const HeroText = () => {
           >
             Web Applications
           </motion.p>
+          <motion.a
+            href={resumeLink}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="block w-full px-8 py-4 mt-8 text-xl font-bold text-white bg-radial from-lavender to-royal rounded-md hover-animation sm:w-auto"
+            variants={variants}
+            initial="hidden"
+            animate="visible"
+            whileHover={{ scale: 1.05 }}
+            transition={{ delay: 2.1 }}
+          >
+            View Resume
+          </motion.a>
         </div>
       </div>
     </div>

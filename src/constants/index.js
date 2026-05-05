@@ -255,7 +255,7 @@ export const myProjects = [
     ],
     href: "",
     logo: "",
-    image: "/assets/projects/talentx.jpg",
+    image: "/assets/projects/tx.png",
     tags: [
       { id: 1, name: "React", path: "/assets/logos/react.svg" },
       { id: 2, name: "Node.js", path: "/assets/logos/nodejs.jpeg" },
@@ -311,7 +311,7 @@ export const experiences = [
   {
     title: "Junior Software Engineer",
     job: "Innova Solutions",
-    date: "Aug 2025 - Present",
+    date: "August 2025 - Present",
     contents: [
       "Spearheading frontend development using React.js and Tailwind CSS, focusing on building scalable UI components.",
       "Collaborating with cross-functional teams to deliver high-quality code and optimize system architecture.",
@@ -320,9 +320,9 @@ export const experiences = [
     ],
   },
   {
-    title: "Software Engineering Intern",
+    title: "Software Engineer Intern",
     job: "Innova Solutions",
-    date: "Octuber 2024 - Aug 2025",
+    date: "October 2024 - August 2025",
     contents: [
       "Developed the 'TalentX' recruitment portal, focusing on React-based frontend modules.",
       "Assisted in the design and deployment of several internal dashboard features.",
@@ -331,6 +331,9 @@ export const experiences = [
     ],
   },
 ];
+export const resumeLink =
+  "https://drive.google.com/file/d/1QpOhaWN8WLNKm2wBn_j1kvSHehwz8FXN/view?usp=drive_link";
+
 export const reviews = [
   {
     name: "9.31 CGPA",
