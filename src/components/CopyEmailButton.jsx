@@ -50,4 +50,4 @@ const CopyEmailButton = () => {
   );
 };
 
-export default CopyEmailButton;
+export { CopyEmailButton };

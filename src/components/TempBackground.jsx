@@ -1,5 +1,4 @@
-import { motion, useScroll, useSpring, useTransform } from "motion/react";
-
+import { motion, useScroll, useSpring, useTransform } from "framer-motion";
 export const TempBackground = () => {
   const { scrollYProgress } = useScroll();
   const x = useSpring(scrollYProgress, { damping: 50 });
