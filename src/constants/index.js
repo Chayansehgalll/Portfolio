@@ -107,7 +107,7 @@ export const experiences = [
   },
 ];
 export const resumeLink =
-  "https://drive.google.com/file/d/1Ked4gcQ5rV3NlQL4DP_lezByhqKXIaCJ/view?usp=drive_link";
+  "https://drive.google.com/file/d/1Ked4gcQ5rV3NlQL4DP_lezByhqKXIaCJ/view?usp=sharing";
 
 export const reviews = [
   {
