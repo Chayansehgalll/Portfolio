@@ -9,7 +9,7 @@ const Resume = () => {
           Click below to open my resume in Google Drive
         </p>
 
-        <div className="mt-8 overflow-hidden rounded-xl bg-neutral-900/50 ring-1 ring-white/10">
+        <div className="mt-8 mx-auto w-[680px] overflow-hidden rounded-xl bg-neutral-900/50 ring-1 ring-white/10">
           <a
             href={resumeLink}
             target="_blank"

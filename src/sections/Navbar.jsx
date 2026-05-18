@@ -50,6 +50,15 @@ function Navigation({ onNavigate }) {
           Experience
         </a>
       </li>
+       <li className="nav-li">
+        <a
+          className="nav-link"
+          href="#resume"
+          onClick={(e) => handleClick(e, "resume")}
+        >
+          Resume
+        </a>
+      </li>
       <li className="nav-li">
         <a
           className="nav-link"
@@ -66,15 +75,6 @@ function Navigation({ onNavigate }) {
           onClick={(e) => handleClick(e, "contact")}
         >
           Contact
-        </a>
-      </li>
-      <li className="nav-li">
-        <a
-          className="nav-link"
-          href="#resume"
-          onClick={(e) => handleClick(e, "resume")}
-        >
-          Resume
         </a>
       </li>
     </ul>
