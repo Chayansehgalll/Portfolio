@@ -1,6 +1,5 @@
 import { FlipWords } from "./FlipWords";
 import { motion } from "motion/react";
-import { resumeLink } from "../constants/index.js";
 
 const HeroText = () => {
   const words = ["Secure", "Modern", "Scalable"];
@@ -52,9 +51,7 @@ const HeroText = () => {
             Web Solutions
           </motion.p>
           <motion.a
-            href={resumeLink}
-            target="_blank"
-            rel="noopener noreferrer"
+            href="#resume"
             className="px-8 py-4 mt-8 text-xl font-bold text-white bg-radial from-lavender to-royal rounded-md hover-animation md:text-2xl"
             variants={variants}
             initial="hidden"
@@ -108,9 +105,7 @@ const HeroText = () => {
             Web Applications
           </motion.p>
           <motion.a
-            href={resumeLink}
-            target="_blank"
-            rel="noopener noreferrer"
+            href="#resume"
             className="block w-full px-8 py-4 mt-8 text-xl font-bold text-white bg-radial from-lavender to-royal rounded-md hover-animation sm:w-auto"
             variants={variants}
             initial="hidden"

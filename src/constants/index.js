@@ -332,7 +332,7 @@ export const experiences = [
   },
 ];
 export const resumeLink =
-  "https://drive.google.com/file/d/1QpOhaWN8WLNKm2wBn_j1kvSHehwz8FXN/view?usp=drive_link";
+  "https://drive.google.com/file/d/1Ked4gcQ5rV3NlQL4DP_lezByhqKXIaCJ/preview";
 
 export const reviews = [
   {

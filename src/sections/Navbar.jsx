@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { motion } from "motion/react";
-import { resumeLink } from "../constants/index.js";
+
 function Navigation({ onNavigate }) {
   const handleClick = (e, targetId) => {
     e.preventDefault();
@@ -71,9 +71,8 @@ function Navigation({ onNavigate }) {
       <li className="nav-li">
         <a
           className="nav-link"
-          href={resumeLink}
-          target="_blank"
-          rel="noopener noreferrer"
+          href="#resume"
+          onClick={(e) => handleClick(e, "resume")}
         >
           Resume
         </a>
