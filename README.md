@@ -69,7 +69,7 @@ cd portfolio
 ### 2. Install Dependencies
 
 ```bash
-npm install
+npm i
 ```
 
 ### 3. Run the Development Server
@@ -82,7 +82,7 @@ The app will be available at http://localhost:5173.
 
 ---
 
-## 📬 Contact Me
+## 📬 To Connect With Me
 
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://www.instagram.com/chayan.sehgal?igsh=cjdldWNucTI0NWht)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/chayan-sehgal/)
