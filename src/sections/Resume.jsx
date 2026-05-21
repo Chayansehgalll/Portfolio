@@ -1,5 +1,5 @@
 import { resumeLink } from "../constants/index.js";
-
+import Image_resume from "../../public/assets/socials/Image_resume.jpg";
 const Resume = () => {
   return (
     <section id="resume" className="pb-42">
@@ -17,7 +17,7 @@ const Resume = () => {
             className="block"
           >
             <img
-              src="/assets/socials/Fullstack_Resume_Chayan_image.jpg"
+              src="/assets/socials/Image_resume.jpg"
               alt="Resume preview"
               className="h-auto w-full"
               loading="lazy"
